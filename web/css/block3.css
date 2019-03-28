@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2018, 2:04:36 PM
+    Author     : Shreyash Agrawal
+*/
+
+*{
+    font-family: helvetica;
+}
+ .block3{
+                box-shadow: 5px 5px 9px #444;
+                margin-top: 30px;
+                background-color:#f4f4f4;
+                right: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+                width: auto;
+                height: auto;
+                
+                padding: 20px 40px;
+                padding-top: 40px;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+            }
+            
+            .block3 table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            .block3 th{
+                text-align: center;
+            }
+            .block3 table td, th{
+                padding: 10px;
+                line-height: 1.4;
+            }
+            .block3 h2{
+                text-align: center;
+            }
+            .block3 tr, td, th{
+                border: 1px solid black;
+            }
+            
+            .block3 td{
+                font-family: "Myriad pro Semibold";
+                font-size: 18px;
+            }
+            
+            .correct{
+                float: left;
+                
+            }
+            .wrong{
+                float: right;
+            }
+            .correct tr{
+                background-color: #a7ff91;
+            }
+            
+            .wrong tr{
+                background-color: #ff7d77;
+            }
+            
+            .whitespace{
+                clear: both;
+            }
+            
+            
+            
+            .que{
+                word-wrap: break-word;
+                max-width: 310px;
+            }
+            
+            .center{
+                text-align: center;
+            }

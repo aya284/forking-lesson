@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        
+        <header>
+		<div class="firstHeader">
+			<h1>Quiz Trivia</h1>
+		</div>
+
+		<div class="secondHeader">
+						
+		</div>
+
+		<div class="thirdHeader"> 
+			<form action="LoginCheck.jsp" method="post">
+			<table>
+                            <tr><th colspan="2"><h3>Login</h3></th></tr>
+					
+					<tr> 
+						<td>
+							UserName:
+						</td>
+						<td>
+							<input type="text" name="uname" placeholder="Type your UserName here" required>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Password:
+						</td>
+						<td>
+							<input type="password" name="pword" placeholder="Type your Password here" required>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2" style="text-align: center;"> 
+							<input type="submit" value="OK">
+						</td>
+					</tr>
+				</table>
+                        </form>
+			
+		</div>
+
+		<div class="whitespace">
+			
+		</div>
+
+		<nav>
+			<div class="mainmenu">
+				<a href="index.jsp"> Home</a>
+				<div class="hovermenu">
+					<a href="">Topics <strong>v</strong></a>
+						<div class="hovercontent">
+							<a href="CheckLogInForQuestions.jsp?topic=gk">G.K.</a>
+							<a href="CheckLogInForQuestions.jsp?topic=science">Science</a>
+                                                        <a href="CheckLogInForQuestions.jsp?topic=technology">Technology</a>
+                                                        <a href="CheckLogInForQuestions.jsp?topic=space" >Space</a>
+							<a href="CheckLogInForQuestions.jsp?topic=c">C</a>
+                                                        <a href="CheckLogInForQuestions.jsp?topic=c++">C++</a>
+                                                        <a href="CheckLogInForQuestions.jsp?topic=java">Java</a>
+                                                        
+                                                        <a href="CheckLogInForQuestions.jsp?topic=python">Python</a>
+                                                        <a href="CheckLogInForQuestions.jsp?topic=html">HTML</a>
+                                                        <a href="CheckLogInForQuestions.jsp?topic=javascript">JavaScript</a>
+                                                        
+						</div>
+				</div>
+                                <a href="CheckLogInForQuestions.jsp?topic=random">Quick Test</a>
+                                <a href="index.jsp">Register</a>
+                                <a href="index.jsp">Login</a>
+                        </div>
+		</nav>
+
+	</header>
+        
+    </body>
+</html>

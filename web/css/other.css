@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2018, 8:19:09 PM
+    Author     : Shreyash Agrawal
+*/
+body{
+	background-image: url("../images/background.jpg");
+	margin: auto;
+        font-family: arial;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+header{	
+
+}
+.right{
+    float: right;
+}
+
+.firstHeader{
+	font-family: impact;
+	font-size: 30px;
+	color: maroon;
+	font-weight: bold;
+	margin: 5px;
+	margin-left: 20%;
+	padding: 3px;
+	float: left;
+}
+
+.secondHeader{
+float: right;
+margin-right: 40px;
+}
+.whitespace{
+	clear: both;
+}
+
+.mainmenu{
+	margin: auto;
+	padding: 8px;
+	background-color: #444;
+	padding-left: 10px;
+        height: auto;
+}
+
+.mainmenu a{
+	font-family: helvetica;
+	font-size: 17px;
+	color: white;
+	padding: 9px;
+	padding-left: 15px;
+        padding-right: 10px;
+	
+}
+
+.mainmenu a:hover{
+	background-color: #f4f4f4;
+	color: black;
+	text-shadow: 13px;
+        font-weight: bold;
+        box-shadow: 3px 5px 13px #444;
+}
+
+.hovermenu{
+	display: inline-block;
+}
+
+
+.hovercontent{
+	position: absolute;
+	display: none;
+	
+}
+
+.hovermenu:hover .hovercontent{
+	display: block;
+	background-color: #444;
+	width: 120px;
+	margin-left: 2px;
+	padding-top: 2px;
+	margin-top: 5px;
+        box-shadow: 2px 5px 17px #444;
+}
+
+.hovercontent a{
+	display: block;
+	color: white;
+	padding-left: 3px;
+	
+}
+.profile{
+    float: left;
+}
+
+.data{
+    float: right;
+    border-collapse: collapse;
+}
+
+.content{
+                box-shadow: 5px 5px 9px #444;
+                margin-top: 30px;
+                background-color:#f4f4f4;
+                right: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+                width: 1100px;
+                height: auto;
+                padding: 20px;
+                padding-top: 50px;
+                padding-bottom: 40px;
+                margin-bottom: 50px;
+            }
+            
+            .content .profile{
+                margin-left: 30px;
+            }
+            
+            .content .data{
+                margin-right: 30px;
+            }
+           
+            .content td{
+                padding: 5px;
+                padding-bottom: 5px;
+                text-align: left;
+                font-size: 18px;
+            }
+            .content th{
+                padding: 5px;
+                padding-bottom: 5px;
+                text-align: right;
+                font-size: 18px;
+            }
+            
+            .content .data th,.content .data td{
+                border: 1px solid #444;
+                
+            }
+            
+            .content .data th{
+                font-family: arial;
+            }
+            .content .data td{
+                font-family: arial;
+            }
+            
+            .content .data li{
+                padding: 3px;
+                padding-bottom: 2px;
+            }
+            
+            .content h2{
+                text-align: center;
+            }
+            
+            .content .profile{
+                padding-left: 10px;
+            }
+            .content .profile td{
+                padding-left: 20px;
+                font-family: arial;
+            }
+            
+            .content .data a:hover{
+                
+                background-color: aquamarine;
+            }
+            .content .data a{
+                color: black;
+            }

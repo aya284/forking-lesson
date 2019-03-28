@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomePage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<header>
+		<div class="firstHeader">
+			<h1>Quiz Trivia</h1>
+		</div>
+
+		<div class="secondHeader">
+						
+		</div>
+
+		<div class="thirdHeader"> 
+			<form action="UsersJsp/LoginCheck.jsp" method="post">
+			<table>
+                            <tr><th colspan="2"><h3>Login</h3></th></tr>
+					
+					<tr> 
+						<td>
+							UserName:
+						</td>
+						<td>
+							<input type="text" name="uname" placeholder="Type your UserName here" required>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Password:
+						</td>
+						<td>
+							<input type="text" name="password" placeholder="Type your Password here" required>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2" style="text-align: center;"> 
+							<input type="submit" value="OK">
+						</td>
+					</tr>
+				</table>
+                        </form>
+			
+		</div>
+
+		<div class="whitespace">
+			
+		</div>
+
+		<nav>
+			<div class="mainmenu">
+				<a href=""> Home</a>
+				<div class="hovermenu">
+					<a href="">Topics <strong>v</strong></a>
+						<div class="hovercontent">
+							<a href="">G.K.</a>
+							<a href="" >History</a>
+							<a href="">Network</a>
+                                                        <a href="">Technology</a>
+                                                        <a href="">I.Q.</a>
+                                                        <a href="">Science</a>
+						</div>
+				</div>
+                                <a href="">Quick Test</a>
+			</div>
+		</nav>
+
+	</header>
+
+	<div class="form">
+		
+		<h2>Register Now!</h2><br>
+
+		<form action="UsersJsp/SaveJsp.jsp" method="post">
+			
+			<table>
+
+				<tr>
+						<td>
+							Email:
+						</td>
+
+						<td>
+							<input type="email" name="email" required>
+						</td>
+
+				</tr>
+
+				<tr>
+					<td>
+						UserName:
+					</td>
+					<td>
+						<input type="text" name="uname" placeholder="Create a UserName" required>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Password:
+					</td>
+					<td>
+						<input type="password" name="password" required>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						Gender:
+					</td>
+					<td style="text-align: left;">
+						<input type="radio" name="gender" value="Male">Male
+						<br>
+						<input type="radio" name="gender" value="Female">Female
+						<br>
+						<input type="radio" name="gender" value="other">Other
+
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Country:
+					</td>
+					<td style="text-align: left;">
+						<select name = "country">
+							<option>India</option>
+							<option>U.S.A</option>
+							<option>U.K.</option>
+
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="2" style="text-align: center;">
+						<input type="submit" value="Save" id="buttonlength">
+					</td>
+				</tr>
+
+			</table>
+
+		</form>
+
+	</div>
+
+	<div class="whitespace">
+		
+	</div>
+
+       <div class="footer">
+                    <p>
+                        Copyright Shreyash Technologies Pvt. Ltd.
+                    </p>
+
+                <div class="right">
+                    <a href="">Contact Us</a>	
+                    <a href="">Report</a>
+                </div>
+        </div>
+	
+        
+    <div class="whitespace">
+        
+    </div>
+
+</body>
+</html>

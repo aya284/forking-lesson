@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 30, 2018, 1:14:24 PM
+    Author     : Shreyash Agrawal
+*/
+
+ .box{
+                box-shadow: 5px 5px 9px #444;
+                margin-top: 30px;
+                background-color:#f4f4f4;
+                right: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+                width: 1100px;
+                height: auto;
+                padding: 20px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+            }
+            
+            .box table{
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+            }
+            .box th{
+                text-align: center;
+                font-family: georgia;
+                
+            }
+            .box h1{
+                text-align: center;
+            }
+            
+            .size th{
+                font-size: 30px;
+            }
